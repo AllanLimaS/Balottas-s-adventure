@@ -13,6 +13,7 @@
 #include <windows.h>
 #include <ctime>
 
+
 int main(int argc, char *argv[])
 {
 
@@ -25,6 +26,8 @@ int main(int argc, char *argv[])
     Personagem * balottin = new Personagem();  
     balottin->setRect(400,400,50,50);
     balottin->setBrush(QBrush(Qt::blue));       // CRIA PRINCIPAL
+    balottin->setPontosUpgrade(10);
+
 
    Escada * saida = new Escada();
 

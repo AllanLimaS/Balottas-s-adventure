@@ -12,6 +12,16 @@ private:
 
 public:
     Entidade();
+    int getLife() const;
+    void setLife(int value);
+    int getMax_life() const;
+    void setMax_life(int value);
+    int getSpeed() const;
+    void setSpeed(int value);
+    int getStrenght() const;
+    void setStrenght(int value);
+    int getArmor() const;
+    void setArmor(int value);
 };
 
 #endif // ENTIDADE_H
